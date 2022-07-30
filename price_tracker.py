@@ -34,7 +34,7 @@ def discord_notification():
     'content': "The price is below 50k check the canon 200d now in amazon"
   }
   header={
-    'authorization' : 'NjExMTEwMzg0MTUzMjY0MTI5.X-is2A.KyF1AS3LJjpGYizQQQVW13SjRSo'
+    'authorization' : ''
   }
   Request_URL='https://discord.com/api/v8/channels/792783399672610827/messages'
   discord_req= requests.post(Request_URL,
